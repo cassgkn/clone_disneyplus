@@ -1,0 +1,40 @@
+
+.plans {
+    padding: 5.6vw;
+
+    text-align: center;
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        
+        &__item {
+            text-align: center;
+            padding: 60px 44px 44px;
+            max-width: 380px;
+            width: 100%;
+
+            //pseudo-elemento para escolha do segundo item filho.
+            &:nth-child(2) {
+                background-image: url(../images/fundo_combo_plus.png);
+                background-repeat: no-repeat;
+                background-size: contain; // contempla a imagem sem alteração no padding
+            }
+
+            img {
+                height: 83px;
+            }
+
+            strong {
+                display: block;
+                margin-top: 24px;
+            }
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+
+}
