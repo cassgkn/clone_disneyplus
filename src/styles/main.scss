@@ -142,16 +142,20 @@ body {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 
+    
+
     @media (max-width: 768px) {
         display: block;
     }
 
+    source {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
     img {
         max-width: 100%;
-
-        @media (max-width: 768px) {
-            max-width: 50%;
-        }
     }
 
     &__text_container {
