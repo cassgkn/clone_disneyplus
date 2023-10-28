@@ -13,6 +13,11 @@
     box-sizing: border-box;
     font-family: Avenir, sans-serif;
     list-style: none;
+
+    @media (max-width: 768px) {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 
 body {
